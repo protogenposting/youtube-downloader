@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/YoutubeToMp4.csproj": {}
+    "/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/YoutubeToMp4.csproj": {}
   },
   "projects": {
-    "/home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/YoutubeToMp4.csproj": {
+    "/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/YoutubeToMp4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/YoutubeToMp4.csproj",
+        "projectUniqueName": "/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/YoutubeToMp4.csproj",
         "projectName": "YoutubeToMp4",
-        "projectPath": "/home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/YoutubeToMp4.csproj",
+        "projectPath": "/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/YoutubeToMp4.csproj",
         "packagesPath": "/home/protogenposting/.nuget/packages/",
-        "outputPath": "/home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/obj/",
+        "outputPath": "/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/protogenposting/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.3.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -12,3 +12,22 @@
 /home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.pdb
 /home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.genruntimeconfig.cache
 /home/protogenposting/Desktop/C sharp stuff/YoutubeToMp4/obj/Debug/net8.0/ref/YoutubeToMp4.dll
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.GeneratedMSBuildEditorConfig.editorconfig
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.AssemblyInfoInputs.cache
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.AssemblyInfo.cs
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.csproj.CoreCompileInputs.cache
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.sourcelink.json
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.dll
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/refint/YoutubeToMp4.dll
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.pdb
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/YoutubeToMp4
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/YoutubeToMp4.deps.json
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/YoutubeToMp4.runtimeconfig.json
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/YoutubeToMp4.dll
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/YoutubeToMp4.pdb
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/AngleSharp.dll
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/bin/Debug/net8.0/YoutubeExplode.dll
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.csproj.AssemblyReference.cache
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.csproj.CopyComplete
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/YoutubeToMp4.genruntimeconfig.cache
+/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/obj/Debug/net8.0/ref/YoutubeToMp4.dll
