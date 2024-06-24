@@ -7,14 +7,14 @@ namespace YouTubeDownloader
         static async Task Main(string[] args)
         {
             // Set the output directory path here
-            string outputDirectory = @"D:\YouTubeVideo";
+            string outputDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location)+"/videos";
+            Directory.CreateDirectory(outputDirectory);
 
             // List of YouTube video URLs to download
             List<string> videoUrls = new List<string>
             {
 
-                "https://www.youtube.com/watch?v=YT8rY_o5VhY&ab_channel=ZeeMusicCompany",
-                "https://www.youtube.com/watch?v=HFX6AZ5bDDo&ab_channel=ZeeMusicCompany",
+                "https://www.youtube.com/watch?v=GOxqaNpagZI",
                 // Add more video URLs as needed
             };
             try
