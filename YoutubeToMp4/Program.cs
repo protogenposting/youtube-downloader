@@ -13,8 +13,7 @@ namespace YouTubeDownloader
             // List of YouTube video URLs to download
             List<string> videoUrls = new List<string>
             {
-
-                "https://www.youtube.com/watch?v=GOxqaNpagZI",
+                "https://youtu.be/7-A5akkExz8?si=GSNJH1X0bC_xZRKf",
                 // Add more video URLs as needed
             };
             try
