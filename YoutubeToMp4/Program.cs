@@ -14,7 +14,13 @@ namespace YouTubeDownloader
             // List of YouTube video URLs to download
             List<string> videoUrls = new List<string>
             {
-                "https://youtu.be/7-A5akkExz8?si=GSNJH1X0bC_xZRKf",
+                "https://youtu.be/dHlpa5utQzQ?si=p9dfdsyYug3quKux",
+                "https://youtu.be/weZKm1kTrpc?si=RQnT4j9LiauyfAUP",
+                "https://youtu.be/kXMwZNRiPe0?si=QLE5J30SjXtyTwNS",
+                "https://youtu.be/9Zj0JOHJR-s?si=0_57adxXuFW4_0rx",
+                "https://youtu.be/EWjZOxs87yg?si=-TbodDxcSEStDB0w",
+                "https://youtu.be/rRzDNQPzbs4?si=kRRfgx_FQIhoWR_M",
+                "https://youtu.be/lCaun_EiJZQ?si=68xxVoxdNU3vgKH4"
                 // Add more video URLs as needed
             };
             try
