@@ -5,6 +5,7 @@ namespace YouTubeDownloader
 {
     class Program
     {
+        static YoutubeClient youtube = new YoutubeClient();
         static async Task Main(string[] args)
         {
             // Set the output directory path here
@@ -34,10 +35,10 @@ namespace YouTubeDownloader
             {
                 Console.WriteLine("An error occurred while downloading the videos: " + ex.Message);
             }
+            Console.WriteLine("Done!");
         }
         static async Task DownloadYouTubeVideo(string videoUrl, string outputDirectory)
         {
-            var youtube = new YoutubeClient();
             var video = await youtube.Videos.GetAsync(videoUrl);
 
             // Sanitize the video title to remove invalid characters from the file name
