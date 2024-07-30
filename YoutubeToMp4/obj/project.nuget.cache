@@ -1,14 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "d8ZCcW1wHEJQz/X848vIQw8vapZQsdcU93AH6ZglftpT95U2kmnk+YOXJXAT6ty18DK1GCw+4/TFwc+VYA8XvA==",
+  "dgSpecHash": "B91ocDQIFxbCKv8VoKX3Z6axX7Z2F47mh1Q3ziGblHsDmFVH4y5jqaT9Pj02NijfyJhfdt3r0If/WrB+E9PTDQ==",
   "success": true,
-  "projectFilePath": "/home/protogenposting/Desktop/youtube-downloader/YoutubeToMp4/YoutubeToMp4.csproj",
+  "projectFilePath": "c:\\Users\\firef\\OneDrive\\Documents\\GameMakerStudio2\\youtube-downloader\\YoutubeToMp4\\YoutubeToMp4.csproj",
   "expectedPackageFiles": [
-    "/home/protogenposting/.nuget/packages/anglesharp/1.1.2/anglesharp.1.1.2.nupkg.sha512",
-    "/home/protogenposting/.nuget/packages/system.text.encoding.codepages/8.0.0/system.text.encoding.codepages.8.0.0.nupkg.sha512",
-    "/home/protogenposting/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/home/protogenposting/.nuget/packages/system.text.json/8.0.3/system.text.json.8.0.3.nupkg.sha512",
-    "/home/protogenposting/.nuget/packages/youtubeexplode/6.3.16/youtubeexplode.6.3.16.nupkg.sha512"
+    "C:\\Users\\firef\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\ffmpeg.autogen\\7.0.0\\ffmpeg.autogen.7.0.0.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\nreco\\2.0.3\\nreco.2.0.3.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\nreco.videoconverter.lt\\1.2.1\\nreco.videoconverter.lt.1.2.1.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\youtubeexplode\\6.3.16\\youtubeexplode.6.3.16.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NReco 2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NReco",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
