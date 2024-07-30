@@ -18,12 +18,12 @@ namespace YouTubeDownloader
             List<string> videoUrls = new List<string>
             {
                 "https://youtu.be/dHlpa5utQzQ?si=p9dfdsyYug3quKux",
-                /*"https://youtu.be/weZKm1kTrpc?si=RQnT4j9LiauyfAUP",
+                "https://youtu.be/weZKm1kTrpc?si=RQnT4j9LiauyfAUP",
                 "https://youtu.be/kXMwZNRiPe0?si=QLE5J30SjXtyTwNS",
                 "https://youtu.be/9Zj0JOHJR-s?si=0_57adxXuFW4_0rx",
                 "https://youtu.be/EWjZOxs87yg?si=-TbodDxcSEStDB0w",
                 "https://youtu.be/rRzDNQPzbs4?si=kRRfgx_FQIhoWR_M",
-                "https://youtu.be/lCaun_EiJZQ?si=68xxVoxdNU3vgKH4"*/
+                "https://youtu.be/lCaun_EiJZQ?si=68xxVoxdNU3vgKH4"
                 // Add more video URLs as needed
             };
             Console.WriteLine("Urls:");
@@ -37,12 +37,15 @@ namespace YouTubeDownloader
                 {
                     await DownloadYouTubeVideo(videoUrl, outputDirectory);
                 }
+                //convert them all to mp3's
+                //delete this for loop if you don't want that
                 foreach (var video in exports)
                 {
                     convert.ConvertMedia(
                         video,
                         video+".mp3",
                         "mp3");
+                    File.Delete(video);
                 }
             }
             catch (Exception ex)
