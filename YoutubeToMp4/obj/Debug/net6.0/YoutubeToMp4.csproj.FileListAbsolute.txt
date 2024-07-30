@@ -20,7 +20,7 @@ c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToM
 c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\obj\Debug\net6.0\YoutubeToMp4.pdb
 c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\obj\Debug\net6.0\YoutubeToMp4.genruntimeconfig.cache
 c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\obj\Debug\net6.0\ref\YoutubeToMp4.dll
-c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\bin\Debug\net6.0\NReco.VideoConverter.LT.dll
 c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\bin\Debug\net6.0\FFmpeg.AutoGen.dll
 c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\bin\Debug\net6.0\FFMpegCore.dll
 c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\bin\Debug\net6.0\Instances.dll
+c:\Users\firef\OneDrive\Documents\GameMakerStudio2\youtube-downloader\YoutubeToMp4\bin\Debug\net6.0\NReco.VideoConverter.dll

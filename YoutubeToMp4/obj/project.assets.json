@@ -73,15 +73,15 @@
           }
         }
       },
-      "NReco.VideoConverter.LT/1.2.1": {
+      "NReco.VideoConverter/1.2.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NReco.VideoConverter.LT.dll": {
+          "lib/netstandard2.0/NReco.VideoConverter.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/NReco.VideoConverter.LT.dll": {
+          "lib/netstandard2.0/NReco.VideoConverter.dll": {
             "related": ".xml"
           }
         }
@@ -273,19 +273,19 @@
         "nreco.nuspec"
       ]
     },
-    "NReco.VideoConverter.LT/1.2.1": {
-      "sha512": "e5n5HGsCI6EMoaOdpzUQROkvhN8noY1PkLmYFaj+JcboGDaZGqkUaA7tTpdL/N4yzFIymmOpFpZkeveW+NiS2A==",
+    "NReco.VideoConverter/1.2.1": {
+      "sha512": "d/V78hRW6Iqi9+lNrivCWL9qMiiJ8WCrwN1wpEvGq+3mE3uIy7VYhkgHrJBkUzx4RRQKEJ9UvCvVb+0ELIbGWg==",
       "type": "package",
-      "path": "nreco.videoconverter.lt/1.2.1",
+      "path": "nreco.videoconverter/1.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/NReco.VideoConverter.LT.dll",
-        "lib/net45/NReco.VideoConverter.LT.xml",
-        "lib/netstandard2.0/NReco.VideoConverter.LT.dll",
-        "lib/netstandard2.0/NReco.VideoConverter.LT.xml",
-        "nreco.videoconverter.lt.1.2.1.nupkg.sha512",
-        "nreco.videoconverter.lt.nuspec"
+        "lib/net45/NReco.VideoConverter.dll",
+        "lib/net45/NReco.VideoConverter.xml",
+        "lib/netstandard2.0/NReco.VideoConverter.dll",
+        "lib/netstandard2.0/NReco.VideoConverter.xml",
+        "nreco.videoconverter.1.2.1.nupkg.sha512",
+        "nreco.videoconverter.nuspec"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -488,7 +488,7 @@
       "FFMpegCore >= 5.1.0",
       "FFmpeg.AutoGen >= 7.0.0",
       "NReco >= 2.0.3",
-      "NReco.VideoConverter.LT >= 1.2.1",
+      "NReco.VideoConverter >= 1.2.1",
       "YoutubeExplode >= 6.3.16"
     ]
   },
@@ -549,7 +549,7 @@
             "target": "Package",
             "version": "[2.0.3, )"
           },
-          "NReco.VideoConverter.LT": {
+          "NReco.VideoConverter": {
             "target": "Package",
             "version": "[1.2.1, )"
           },

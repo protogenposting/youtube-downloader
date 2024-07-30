@@ -11,7 +11,7 @@
           "FFMpegCore": "5.1.0",
           "FFmpeg.AutoGen": "7.0.0",
           "NReco": "2.0.3",
-          "NReco.VideoConverter.LT": "1.2.1",
+          "NReco.VideoConverter": "1.2.1",
           "YoutubeExplode": "6.3.16"
         },
         "runtime": {
@@ -65,9 +65,9 @@
           }
         }
       },
-      "NReco.VideoConverter.LT/1.2.1": {
+      "NReco.VideoConverter/1.2.1": {
         "runtime": {
-          "lib/netstandard2.0/NReco.VideoConverter.LT.dll": {
+          "lib/netstandard2.0/NReco.VideoConverter.dll": {
             "assemblyVersion": "1.2.1.0",
             "fileVersion": "1.2.1.0"
           }
@@ -165,12 +165,12 @@
       "path": "nreco/2.0.3",
       "hashPath": "nreco.2.0.3.nupkg.sha512"
     },
-    "NReco.VideoConverter.LT/1.2.1": {
+    "NReco.VideoConverter/1.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e5n5HGsCI6EMoaOdpzUQROkvhN8noY1PkLmYFaj+JcboGDaZGqkUaA7tTpdL/N4yzFIymmOpFpZkeveW+NiS2A==",
-      "path": "nreco.videoconverter.lt/1.2.1",
-      "hashPath": "nreco.videoconverter.lt.1.2.1.nupkg.sha512"
+      "sha512": "sha512-d/V78hRW6Iqi9+lNrivCWL9qMiiJ8WCrwN1wpEvGq+3mE3uIy7VYhkgHrJBkUzx4RRQKEJ9UvCvVb+0ELIbGWg==",
+      "path": "nreco.videoconverter/1.2.1",
+      "hashPath": "nreco.videoconverter.1.2.1.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",

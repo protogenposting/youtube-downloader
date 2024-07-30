@@ -60,10 +60,8 @@ namespace YouTubeDownloader
 
                 Console.WriteLine("Download completed!");
                 Console.WriteLine($"Video saved as: {outputFilePath}{datetime}");
-                FFMpegArguments
-                .FromFileInput(outputFilePath)
-                .OutputToFile(outputFilePath+".mp3")
-                .ProcessSynchronously();
+                var convert = new NReco.VideoConverter.FFMpegConverter();
+                convert.ConvertMedia(outputFilePath,outputFilePath+".mp3",".mp3");
             }
             else
             {

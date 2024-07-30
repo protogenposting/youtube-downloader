@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B91ocDQIFxbCKv8VoKX3Z6axX7Z2F47mh1Q3ziGblHsDmFVH4y5jqaT9Pj02NijfyJhfdt3r0If/WrB+E9PTDQ==",
+  "dgSpecHash": "P7kQtJZd+hp4ZkaGmCGkyDnexekZPfNLZ2rdHSJuJqSZtxwYuFwTtzLpyZ1/dPhOvpXnj1xLQrdCvTtQbhS3Og==",
   "success": true,
   "projectFilePath": "c:\\Users\\firef\\OneDrive\\Documents\\GameMakerStudio2\\youtube-downloader\\YoutubeToMp4\\YoutubeToMp4.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\firef\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
     "C:\\Users\\firef\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
     "C:\\Users\\firef\\.nuget\\packages\\nreco\\2.0.3\\nreco.2.0.3.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\nreco.videoconverter.lt\\1.2.1\\nreco.videoconverter.lt.1.2.1.nupkg.sha512",
+    "C:\\Users\\firef\\.nuget\\packages\\nreco.videoconverter\\1.2.1\\nreco.videoconverter.1.2.1.nupkg.sha512",
     "C:\\Users\\firef\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\firef\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\firef\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
