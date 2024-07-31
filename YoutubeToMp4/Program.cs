@@ -35,12 +35,16 @@ namespace YouTubeDownloader
             {
                 foreach (var videoUrl in videoUrls)
                 {
+                    Console.WriteLine("-----------------");
                     await DownloadYouTubeVideo(videoUrl, outputDirectory);
                 }
+                Console.WriteLine("-----------------");
+                Console.WriteLine("MP3 TIEM!!!");
                 //convert them all to mp3's
                 //delete this for loop if you don't want that
                 foreach (var video in exports)
                 {
+                    Console.WriteLine("-----------------");
                     convert.ConvertMedia(
                         video,
                         video+".mp3",
