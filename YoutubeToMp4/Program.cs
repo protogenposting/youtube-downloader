@@ -35,37 +35,49 @@ namespace YouTubeDownloader
             {
                 foreach (var videoUrl in videoUrls)
                 {
-                    Console.WriteLine("-----------------");
-                    await DownloadYouTubeVideo(videoUrl, outputDirectory);
-                }
-                Console.WriteLine("-----------------");
-                Console.WriteLine("MP3 TIEM!!!");
-                //convert them all to mp3's
-                //delete this for loop if you don't want that
-                foreach (var video in exports)
-                {
-                    Console.WriteLine("-----------------");
-                    convert.ConvertMedia(
-                        video,
-                        video+".mp3",
-                        "mp3");
-                    File.Delete(video);
+                    try
+                    {
+                        Console.WriteLine("-----------------");
+                        await DownloadYouTubeVideo(videoUrl, outputDirectory);
+                    }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine("Error downloading "+videoUrl);
+                        Console.WriteLine(e.Message);
+                    }
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("An error occurred while downloading the videos: " + ex.Message);
             }
+            Console.WriteLine("-----------------");
+            Console.WriteLine("MP3 TIEM!!!");
+            //convert them all to mp3's
+            //delete this for loop if you don't want that
+            foreach (var video in exports)
+            {
+                Console.WriteLine("-----------------");
+                Console.WriteLine("Converting "+video);
+                convert.ConvertMedia(
+                    video,
+                    video+".mp3",
+                    "mp3");
+                File.Delete(video);
+            }
             Console.WriteLine("Done!");
         }
         static async Task DownloadYouTubeVideo(string videoUrl, string outputDirectory)
         {
+            Console.WriteLine("Waiting...");
             var video = await youtube.Videos.GetAsync(videoUrl);
+            Console.WriteLine("Got Video!");
 
             // Sanitize the video title to remove invalid characters from the file name
             string sanitizedTitle = string.Join("_", video.Title.Split(Path.GetInvalidFileNameChars()));
 
-            Console.Write("started: "+sanitizedTitle);
+            Console.WriteLine("Started: "+sanitizedTitle);
+            Console.WriteLine("Getting Streams...");
             // Get all available muxed streams
             var streamManifest = await youtube.Videos.Streams.GetManifestAsync(video.Id);
             var muxedStreams = streamManifest.GetMuxedStreams().OrderByDescending(s => s.VideoQuality).ToList();
@@ -76,10 +88,14 @@ namespace YouTubeDownloader
                 using var httpClient = new HttpClient();
                 var stream = await httpClient.GetStreamAsync(streamInfo.Url);
                 var datetime = DateTime.Now;
-
+                
+                Console.WriteLine("Downloading...");
                 string outputFilePath = Path.Combine(outputDirectory, $"{sanitizedTitle}.{streamInfo.Container}");
-                using var outputStream = File.Create(outputFilePath);
-                await stream.CopyToAsync(outputStream);
+                if(!File.Exists(outputFilePath))
+                {
+                    using var outputStream = File.Create(outputFilePath);
+                    await stream.CopyToAsync(outputStream);
+                }
 
                 Console.WriteLine("Download completed!");
                 Console.WriteLine($"Video saved as: {outputFilePath}{datetime}");
