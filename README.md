@@ -1,9 +1,5 @@
-this thingymabob lets you convert youtube videos to mp3/mp4!!!!!1111!!1111
+Have you ever wanted to download youtube videos but found that every site you visited was infested with ads and viruses? Well this program fixes that!
 
-yea that's about it
+To run the program, simply open it in VS CODE then find the run button or something idk
 
-i was just annoyed that every youtube to mp4 thingy was like... a virus...
-
-so yea
-
-:3
+Also comment out the mp3 conversion code if u want mp4 files
