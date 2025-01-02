@@ -1,20 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "XZwdjHwKA/ODmI4Mp0nuOJsed5jfxyPJyATyVajc0/mnny3Ae9pKLmtAAFZweMZ6cfCexqSKsDY6aiZDMkwaQA==",
+  "dgSpecHash": "WE+yJSXBoxup2mi5MbYryUCI/bKTEC/ew5A5HP+Ld/ZxmFK8ZP3ZKVj1tmBYLtDMRHdmei7Yo6ahf3vz7skhbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\firef\\OneDrive\\Documents\\GameMakerStudio2\\youtube-downloader\\YoutubeToMp4\\YoutubeToMp4.csproj",
+  "projectFilePath": "/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/YoutubeToMp4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\firef\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\ffmpeg.autogen\\7.0.0\\ffmpeg.autogen.7.0.0.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\nreco\\2.0.3\\nreco.2.0.3.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\nreco.videoconverter\\1.2.1\\nreco.videoconverter.1.2.1.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
-    "C:\\Users\\firef\\.nuget\\packages\\youtubeexplode\\6.3.16\\youtubeexplode.6.3.16.nupkg.sha512"
+    "/home/protogenposting/.nuget/packages/anglesharp/1.1.2/anglesharp.1.1.2.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/ffmpeg.autogen/7.0.0/ffmpeg.autogen.7.0.0.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/ffmpegcore/5.1.0/ffmpegcore.5.1.0.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/instances/3.0.0/instances.3.0.0.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/nreco/2.0.3/nreco.2.0.3.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/nreco.videoconverter/1.2.1/nreco.videoconverter.1.2.1.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/system.text.json/8.0.3/system.text.json.8.0.3.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/youtubeexplode/6.3.16/youtubeexplode.6.3.16.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.36/microsoft.netcore.app.runtime.linux-x64.6.0.36.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.36/microsoft.aspnetcore.app.runtime.linux-x64.6.0.36.nupkg.sha512",
+    "/home/protogenposting/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
   ],
   "logs": [
     {

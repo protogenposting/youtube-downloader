@@ -1,0 +1,15 @@
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/YoutubeToMp4
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/YoutubeToMp4.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/YoutubeToMp4.deps.json
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/YoutubeToMp4.runtimeconfig.json
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/YoutubeToMp4.pdb
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/AngleSharp.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/FFmpeg.AutoGen.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/FFMpegCore.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/Instances.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/NReco.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/NReco.VideoConverter.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/System.Text.Encodings.Web.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/System.Text.Json.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/YoutubeExplode.dll
+/home/protogenposting/Documents/GitHub/youtube-downloader/YoutubeToMp4/bin/Debug/net6.0/publish/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
